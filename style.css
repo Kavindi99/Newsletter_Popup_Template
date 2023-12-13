@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background:url('Assets/Background.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+}
+
+.box1{
+    background: url('Assets/Pattern.png');
+    padding: 40px;
+    text-align: center;
+    background-color: hsl(224deg, 89%, 55%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: hsl(222deg, 83%, 98%);
+}
+
+.para{
+    color: hsl(0deg, 0%, 66%);
+}
+
+.box2{
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(0deg, 0%, 100%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid hsl(223deg, 16%, 83%)
+}
+
+input::placeholder{
+    color: hsl(223deg, 16%, 83%);
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(226deg, 89%, 54%);
+    color: hsl(224deg, 87%, 94%);
+    cursor: pointer;
+}
+
+.para1{
+    text-align: center;
+    padding: 4px;
+    color: hsl(0deg, 0%, 80%);
+    margin-left: -70px;
+    font-size: 15px;
+}
+
+.profile img{
+    position: relative;
+    left: -100px;
+    top: 30px;
+}
+
+.name{
+    position: relative;
+    top: -15px;
+}
+
+.profile p{
+    color: hsl(0deg, 0%, 65%);
+}
+
+.test{
+    color: hsl(0deg, 0%, 53%);
+    font-size: 14px;
+}

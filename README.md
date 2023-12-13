@@ -12,5 +12,4 @@ I use HTML and CSS to complete this challenge.
 ![Preview](Assets/Capture.PNG)
 
 
-s
 
